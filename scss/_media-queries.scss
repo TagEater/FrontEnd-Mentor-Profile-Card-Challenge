@@ -1,0 +1,21 @@
+@media screen and (max-width: 1440px) {
+  .card-container {
+    height: 100vh !important;
+    width: 100% !important;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .card-container {
+    background-position: top -600px left -750px, bottom -600px right -700px !important;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .name-container {
+    padding: 4.6rem 0 30px 0 !important;
+  }
+  .stats {
+    padding: 10px 15px !important;
+  }
+}
